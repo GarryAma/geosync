@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import Map from "../components/map";
+// import Map from "../components/Map";
+// import Map from "../components/Map"
 import Sidebar from "../components/Sidebar";
 import User from "../components/User";
 import { useEffect } from "react";
 import { useAuth } from "../contexts/FakeAuthContext";
+import Map from "../components/Map";
 
 const AppLayout = () => {
   const navigate = useNavigate();

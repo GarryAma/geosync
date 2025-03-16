@@ -13,8 +13,8 @@ const User = () => {
   // Cegah error jika `user` adalah `null`
   if (!user) return null;
   return (
-    <div className="md:w-[205px] md:h-[40px] w-[20%] text-xs  absolute top-4 right-4 bg-slate-800 rounded-md z-[999]">
-      <div className="py-1 flex md:justify-evenly items-center text-white">
+    <div className="md:w-[205px] md:h-[40px] w-[25%] text-xs  absolute top-4 right-4 bg-slate-800 rounded-md z-[999]">
+      <div className="p-1 flex justify-evenly md:justify-evenly md:items-center text-white md:text-xs text-[8px]">
         <img
           src={user.avatar}
           alt={user.name}

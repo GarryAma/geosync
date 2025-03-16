@@ -18,7 +18,7 @@ const FAKE_DATA = {
 const reducer = (state, action) => {
   switch (action.type) {
     case "LOGIN":
-      return { ...state, user: action.payload, isAuthenticated: true };
+      return { ...state, user: action.payload, isAuthenticated: true,error:"" };
 
     case "LOGOUT":
       return { ...state, user: null, isAuthenticated: false };
